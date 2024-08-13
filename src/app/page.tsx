@@ -2,8 +2,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className=" text-center pt-10 ">
-      <h1>itz3505</h1>
+    <div className="min-h-screen bg-back/[.96] antialiased bg-grid-white/[0.2]">
+      <div className="min-h-screen"></div>
+      <div className="min-h-screen"></div>
+  
 
     </div>
   )
