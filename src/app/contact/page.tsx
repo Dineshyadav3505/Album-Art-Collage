@@ -6,8 +6,8 @@ import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 const ContactUsPage = () => {
   return (
-    <div className="h-screen rounded-md bg-black flex flex-col px-5 items-center justify-center relative w-full">
-      <BackgroundGradient className="rounded-[22px] max-w-7xl p-4 sm:p-10 bg-white dark:bg-zinc-900">
+    <div className="h-screen rounded-md bg-black mt-12 flex flex-col px-5 items-center justify-center relative w-full">
+      <BackgroundGradient className="rounded-[22px]  max-w-7xl p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <h1 className="text-black mt-4 mb-2 text-center text-xl lg:text-3xl dark:text-neutral-200">
           Contact Us
         </h1>
@@ -41,6 +41,8 @@ const ContactUsPage = () => {
           </p>
         </div>
       </BackgroundGradient>
+      <ShootingStars />
+      <StarsBackground />
     </div>
   );
 };

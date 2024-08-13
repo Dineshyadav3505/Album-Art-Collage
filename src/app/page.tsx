@@ -7,9 +7,7 @@ const page = () => {
   return (
     <div className="min-h-screen bg-back/[.96] antialiased bg-grid-white/[0.2]">
       <HeroSection/>
-      <CoursesSection />
-      <Footer/>
-  
+      <CoursesSection />  
 
     </div>
   )

@@ -26,25 +26,25 @@ const Navbar = ({ className }: { className?: string }) => {
                     <div className="text-sm grid lg:grid-cols-2  gap-10 p-4">
                         <ProductItem
                         title="Basic Music Theory"
-                        href=""
+                        href="/courses"
                         src=""
                         description="Learn the basics of music theory and composition"
                         />
                         <ProductItem
                         title="Advanced Compositions"
-                        href=""
+                        href="/courses"
                         src=""
                         description="Learn how to compose music for films and games."
                         />
                         <ProductItem
                         title="Song Writing"
-                        href=""
+                        href="/courses"
                         src=""
                         description="Learn how to write songs and lyrics."
                         />
                         <ProductItem
                         title="Music Production"
-                        href=" "
+                        href="/courses"
                         src=""
                         description="Learn how to produce music using DAWs."
                         />
