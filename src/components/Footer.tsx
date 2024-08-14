@@ -1,5 +1,8 @@
+
+"use client"
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 
 
 const Footer = () => {
@@ -11,11 +14,11 @@ const Footer = () => {
   return (
     <div className='text-white relative h-auto lg:flex border-t-[.2px] bg-black'>
         <div className=" w-full lg:w-[35%] border-r-[.2px] py-3 px-8 flex justify-center items-center">
-            <img className=' object-cover bg-black' src="/img/logo.png" alt="" />
+            <Image className=' object-cover bg-black' src="/img/logo.png" alt="" width={250} height={150} />
         </div> 
         <div className="flex flex-col lg:flex-row w-full lg:w-[75%]">
             {data.map((item, index)=>(
-                <div className="w-[40%] flex flex-col pl-10 py-5">
+                <div key={index} className="w-[40%] flex flex-col pl-10 py-5">
                     <h6 className='text-sm capitalize text-zinc-600'>{item.title}</h6>
                     <Link href={`${item.link1}`} className='text-white capitalize text-base pt-3 py-1'>{item.lable1}</Link>
                     <Link href={`${item.link2}`} className='text-white capitalize text-base py-1'>{item.lable2}</Link>

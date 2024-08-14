@@ -81,21 +81,22 @@ export const ProductItem = ({
   title,
   description,
   href,
-  src,
+  link,
 }: {
   title: string;
   description: string;
   href: string;
-  src: string;
+  link: string;
 }) => {
   return (
     <Link href={href} className="flex space-x-2">
       <Image
-        src={src}
-        width={140}
-        height={70}
+        src={link}
+        width={140} // Keep the width fixed
+        height={0} // Set height to 0 to allow auto height
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 h-auto w-auto rounded-md shadow-2xl"
+        style={{ height: 'auto' }} // Ensure height is auto to maintain aspect ratio
       />
       <div>
         <h4 className="text-xl font-bold mb-1 text-black dark:text-white">

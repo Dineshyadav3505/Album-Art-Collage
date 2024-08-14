@@ -4,7 +4,7 @@ import CoursesSection from '@/components/CoursesSection'
 import React, { useEffect, useState } from 'react'
 import Footer from '@/components/Footer'
 
-const page = () => {
+const Home = () => {
 
   const [isClient, setIsClient] = useState(false);
 
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Home;
