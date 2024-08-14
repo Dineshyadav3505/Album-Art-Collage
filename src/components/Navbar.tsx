@@ -27,25 +27,25 @@ const Navbar = ({ className }: { className?: string }) => {
                         <ProductItem
                         title="Basic Music Theory"
                         href="/courses"
-                        src=""
+                        src="/img/1.png"
                         description="Learn the basics of music theory and composition"
                         />
                         <ProductItem
                         title="Advanced Compositions"
                         href="/courses"
-                        src=""
+                        src="/img/2.png"
                         description="Learn how to compose music for films and games."
                         />
                         <ProductItem
                         title="Song Writing"
                         href="/courses"
-                        src=""
+                        src="/img/3.png"
                         description="Learn how to write songs and lyrics."
                         />
                         <ProductItem
                         title="Music Production"
                         href="/courses"
-                        src=""
+                        src="/img/4.png"
                         description="Learn how to produce music using DAWs."
                         />
                     </div>

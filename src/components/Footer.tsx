@@ -10,8 +10,8 @@ const Footer = () => {
 
   return (
     <div className='text-white relative h-auto lg:flex border-t-[.2px] bg-black'>
-        <div className=" w-full lg:w-[35%] border-r-[.2px] flex justify-center items-center">
-            <h1 className='text-white text-3xl py-10'>Harmony Institute</h1>
+        <div className=" w-full lg:w-[35%] border-r-[.2px] py-3 px-8 flex justify-center items-center">
+            <img className=' object-cover bg-black' src="/img/logo.png" alt="" />
         </div> 
         <div className="flex flex-col lg:flex-row w-full lg:w-[75%]">
             {data.map((item, index)=>(
